@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /contacts
+
+# Host
+Host: https://www.galihroswandi.com
+
+# Sitemaps
+Sitemap: https://www.galihroswandi.com/sitemap.xml
