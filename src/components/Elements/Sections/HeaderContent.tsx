@@ -23,7 +23,7 @@ export default function HeaderContent() {
       </TextHeaderWithIcon>
       <ButtonWithImage
         useButton={false}
-        linkUrl="https://drive.google.com/file/d/1GrQGdNRY6M_prfYX7cVP7XnWs9HEFec8/view?usp=drive_link"
+        linkUrl="https://drive.google.com/file/d/1CzPfH4kn8KxiAyoQ68J7PsU_YFhkEOFx/view?usp=sharing"
         customParentClass={`flex items-center gap-3`}
       >
         <motion.section

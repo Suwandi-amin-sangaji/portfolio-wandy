@@ -13,7 +13,7 @@ export default function Profile(props: ProfileProps) {
       } p-2`}
     >
       <Image
-        src={"/img/wandy.jpg"}
+        src={"/img/wandy.jpeg"}
         alt="Profile Image"
         width={1000}
         height={1000}

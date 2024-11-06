@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { boxVariant } from "@/utils/landingAnimation.config";
 
 export default function MainContact() {
+  
   return (
     <motion.section
       variants={boxVariant}
@@ -104,7 +105,7 @@ const FormContact = () => {
       ? window.sessionStorage.getItem("theme")
       : null;
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoadingContact(true);
 
@@ -113,32 +114,27 @@ const FormContact = () => {
       email,
       message,
     })
-      .then((res: any) => {
+      .then(() => {
         setLoadingContact(false);
-        toast.success("Message send successfully", {
+        toast.success("Message sent successfully", {
           position: "bottom-left",
           autoClose: 5000,
         });
 
-        const name = document.getElementById("name") as HTMLInputElement;
-        const email = document.getElementById(
-          "email/telegram"
-        ) as HTMLInputElement;
-        const message = document.getElementById("message") as HTMLInputElement;
-
-        name.value = "";
-        email.value = "";
-        message.value = "";
+        // Clear form fields
+        setName("");
+        setEmail("");
+        setMessage("");
       })
-      .catch((err: any) => {
+      .catch(() => {
         setLoadingContact(false);
-
         toast.error("Failed to send message", {
           position: "bottom-left",
           autoClose: 5000,
         });
       });
   };
+      
 
   return (
     <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
