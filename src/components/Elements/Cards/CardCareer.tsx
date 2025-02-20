@@ -32,7 +32,7 @@ export default function CardCareer() {
           </ul> */}
         </section>
         <p className="text-sm text-slate-600 dark:text-slate-300">
-          1 Oktober 2023 - Desember 2024
+          Oktober 2024 - Current
         </p>
         <p className="text-sm text-slate-600 dark:text-slate-300">
           ~ 1 Tahun 2 bulan
