@@ -16,7 +16,7 @@ export default function CardsProject() {
       <CardProject
         title="MALLI.ID"
         desc="Solusi Point of Sale (POS) & ERP modern untuk bisnis di Indonesia. Kelola stok barang, multi-outlet kasir, laporan penjualan real-time, dan pembayaran digital dalam satu platform terintegrasi."
-        imgProject="/img/malli-project.jpg"
+        imgProject="/img/bg-hero.svg"
         linkProject="https://malli.id"
       >
         <TechStackImage logoUrl="/icons/nextjs.svg" alt="Next.js" />
