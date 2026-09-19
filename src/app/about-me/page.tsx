@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to Suwandi Amin Sangaji's About Me page. Gain insights into his experiences, expertise, and vision for the future.",
   alternates: {
-    canonical: `${process.env.NEXT_SITE_URL}/about-me`,
+    canonical: `${process.env.NEXT_SITE_URL || "https://portfolio-wandy.vercel.app"}/about-me`,
   },
   openGraph: {
     countryName: "Indonesia",

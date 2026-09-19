@@ -3,7 +3,7 @@ export const homeJsonld = () => {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Suwandi Amin Sangaji",
-    "url": "https://www.suwandiaminsangaji.my.id",
+    "url": "https://portfolio-wandy.vercel.app",
     "sameAs": [
       "https://instagram.com/suwandiaminsangaji",
       "https://github.com/Suwandi-amin-sangaji",
@@ -13,7 +13,7 @@ export const homeJsonld = () => {
       "Enthusiastic to continue working in the field of technology, especially websites. Experienced in creating websites that focus on frontend development.",
     "brand": {
       "@type": "Brand",
-      "name": "GR Digital"
+      "name": "Suwandi Amin Sangaji"
     },
     "knowsAbout": [
       "Software Developer",
@@ -33,7 +33,7 @@ export const homeJsonld = () => {
       "Github"
     ],
     "jobTitle": "Backend Developer",
-    "alumni": "https://www.suwandiaminsangaji.com/alumni",
+    "alumni": "https://portfolio-wandy.vercel.app",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Sorong Papua Barat Daya",
@@ -48,7 +48,7 @@ export const homeJsonld = () => {
         "priceCurrency": "IDR",
         "itemCondition": "https://schema.org/newCondition",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.galihroswandi.com"
+        "url": "https://portfolio-wandy.vercel.app"
       },
       {
         "@type": "Offer",
@@ -58,7 +58,7 @@ export const homeJsonld = () => {
         "priceCurrency": "IDR",
         "itemCondition": "https://schema.org/newCondition",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.galihroswandi.com/contacts"
+        "url": "https://portfolio-wandy.vercel.app/contacts"
       }
     ]
   };

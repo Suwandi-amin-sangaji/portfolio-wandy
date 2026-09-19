@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description:
     "Contact Suwandi Amin Sangaji effortlessly using the contact details provided on this page. Whether it's a professional inquiry or just to say hello, feel free to get in touch.",
   alternates: {
-    canonical: `${process.env.NEXT_SITE_URL}/contacts`,
+    canonical: `${process.env.NEXT_SITE_URL || "https://portfolio-wandy.vercel.app"}/contacts`,
   },
   openGraph: {
     countryName: "Indonesia",

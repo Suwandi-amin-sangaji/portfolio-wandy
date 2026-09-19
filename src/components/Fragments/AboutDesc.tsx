@@ -13,14 +13,14 @@ export default function AboutDesc() {
       className="text-slate-600 dark:text-slate-200 flex flex-col gap-6 mb-6"
     >
       <p>
-        Halo! Nama saya Suwandi Amin Sangaji, dan saya adalah seorang Fullsatck Developer yang berbasis di Kota Sorong Papua Barat Daya 🇮🇩. Saya mengkhususkan diri dalam pengembangan web full-stack. Dengan pengalaman lebih dari 3 tahun di industri teknologi, saya telah mengasah keterampilan saya dalam pengembangan situs web menggunakan teknologi Php, React, python, Bootstrap css, tailwindcss dan JavaScript.
+        Halo! Nama saya Suwandi Amin Sangaji, dan saya adalah seorang Fullstack Developer yang berbasis di Kota Sorong Papua Barat Daya 🇮🇩. Saya mengkhususkan diri dalam pengembangan web full-stack. Dengan pengalaman lebih dari 3 tahun di industri teknologi, saya telah mengasah keterampilan saya dalam pengembangan situs web menggunakan teknologi PHP, React, Python, Bootstrap CSS, Tailwind CSS, dan JavaScript.
       </p>
       <p>
         Selama karier saya, saya menikmati bekerja di{" "}
         <Link
           className="underline"
           target="_blank"
-          href={"https://solusi247.com"}
+          href={"https://sisi.id"}
         >
           PT. Sinergi Informatika Semen Indonesia
         </Link>{" "}

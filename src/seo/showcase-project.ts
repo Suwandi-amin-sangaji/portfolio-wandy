@@ -1,10 +1,15 @@
 export const showcaseJsonld = () => {
-    return {
+  return {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "author": "Sony",
-    "contentRating": "Mature",
-    "image": "videogame.jpg",
-    "name": "Resistance 3: Fall of Man"
-  }
-}
+    "@type": "SoftwareApplication",
+    "name": "MALLI.ID",
+    "author": {
+      "@type": "Person",
+      "name": "Suwandi Amin Sangaji"
+    },
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web, Android, iOS",
+    "url": "https://malli.id",
+    "description": "Point of Sale (POS) & ERP modern untuk bisnis dan UMKM di Indonesia."
+  };
+};

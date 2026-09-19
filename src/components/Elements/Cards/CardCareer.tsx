@@ -1,9 +1,32 @@
 "use client";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { boxVariant } from "@/utils/landingAnimation.config";
 
 export default function CardCareer() {
+  const [duration, setDuration] = useState("~ 2+ Tahun");
+
+  useEffect(() => {
+    const startDate = new Date(2023, 9, 1); // 1 Oktober 2023
+    const now = new Date();
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    if (years > 0 && months > 0) {
+      setDuration(`~ ${years} Tahun ${months} Bulan`);
+    } else if (years > 0) {
+      setDuration(`~ ${years} Tahun`);
+    } else {
+      setDuration(`~ ${months} Bulan`);
+    }
+  }, []);
+
   return (
     <motion.section
       variants={boxVariant}
@@ -14,7 +37,7 @@ export default function CardCareer() {
     >
       <Image
         src={"/img/Logo-SISI.png"}
-        alt="Solusi 247"
+        alt="PT. SINERGI INFORMATIKA SEMEN INDONESIA"
         width={1000}
         height={100}
         className="w-24 sm:w-32"
@@ -32,10 +55,10 @@ export default function CardCareer() {
           </ul> */}
         </section>
         <p className="text-sm text-slate-600 dark:text-slate-300">
-          Oktober 2024 - Current
+          Oktober 2023 - Current
         </p>
         <p className="text-sm text-slate-600 dark:text-slate-300">
-          ~ 1 Tahun 2 bulan
+          {duration}
         </p>
       </section>
     </motion.section>

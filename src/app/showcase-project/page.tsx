@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   description:
     "Discover the diverse range of projects created by Suwandi Amin Sangaji. From web development to software solutions, explore the portfolio here.",
   alternates: {
-    canonical: `${process.env.NEXT_SITE_URL}/showcase-project`,
+    canonical: `${process.env.NEXT_SITE_URL || "https://portfolio-wandy.vercel.app"}/showcase-project`,
   },
   openGraph: {
     countryName: "Indonesia",

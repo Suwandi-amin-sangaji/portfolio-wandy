@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   description:
     "Explore the portfolio of Suwandi Amin Sangaji, a passionate Fullstack developer dedicated to creating innovative digital solutions.",
   alternates: {
-    canonical: `${process.env.NEXT_SITE_URL}/`,
+    canonical: `${process.env.NEXT_SITE_URL || "https://portfolio-wandy.vercel.app"}/`,
   },
   openGraph: {
     countryName: "Indonesia",
